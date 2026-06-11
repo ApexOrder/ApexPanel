@@ -1,0 +1,73 @@
+
+> apexpanel@0.1.0 dev
+> next dev
+
+⚠ Port 3000 is in use by process 1772318, using available port 3002 instead.
+▲ Next.js 16.2.9 (Turbopack)
+- Local:         http://localhost:3002
+- Network:       http://135.181.228.232:3002
+- Environments: .env
+✓ Ready in 287ms
+
+[33m[auth][warn][debug-enabled][0m Read more: https://warnings.authjs.dev
+[90m[auth][debug]:[0m adapter_getSessionAndUser {
+  "args": [
+    "8559176d-6345-48da-9642-0349f8a43a4d"
+  ]
+}
+ GET / 200 in 330ms (next.js: 56ms, proxy.ts: 183ms, application-code: 91ms)
+[90m[auth][debug]:[0m adapter_getSessionAndUser {
+  "args": [
+    "8559176d-6345-48da-9642-0349f8a43a4d"
+  ]
+}
+[90m[auth][debug]:[0m adapter_getSessionAndUser {
+  "args": [
+    "8559176d-6345-48da-9642-0349f8a43a4d"
+  ]
+}
+⚠ Blocked cross-origin request to Next.js dev resource /_next/webpack-hmr from "135.181.228.232".
+Cross-origin access to Next.js dev resources is blocked by default for safety.
+
+To allow this host in development, add it to "allowedDevOrigins" in next.config.js and restart the dev server:
+
+// next.config.js
+module.exports = {
+  allowedDevOrigins: ['135.181.228.232'],
+}
+
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[90m[auth][debug]:[0m adapter_getSessionAndUser {
+  "args": [
+    "8559176d-6345-48da-9642-0349f8a43a4d"
+  ]
+}
+ GET / 200 in 37ms (next.js: 2ms, proxy.ts: 13ms, application-code: 22ms)
+[90m[auth][debug]:[0m adapter_getSessionAndUser {
+  "args": [
+    "8559176d-6345-48da-9642-0349f8a43a4d"
+  ]
+}
+[90m[auth][debug]:[0m adapter_getSessionAndUser {
+  "args": [
+    "8559176d-6345-48da-9642-0349f8a43a4d"
+  ]
+}
+[33m[auth][warn][debug-enabled][0m Read more: https://warnings.authjs.dev
+[90m[auth][debug]:[0m adapter_getSessionAndUser {
+  "args": [
+    "8559176d-6345-48da-9642-0349f8a43a4d"
+  ]
+}
+ GET / 200 in 180ms (next.js: 40ms, proxy.ts: 84ms, application-code: 57ms)
+[90m[auth][debug]:[0m adapter_getSessionAndUser {
+  "args": [
+    "8559176d-6345-48da-9642-0349f8a43a4d"
+  ]
+}
+[90m[auth][debug]:[0m adapter_getSessionAndUser {
+  "args": [
+    "8559176d-6345-48da-9642-0349f8a43a4d"
+  ]
+}
+[?25h
